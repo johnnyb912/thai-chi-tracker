@@ -494,10 +494,10 @@ struct AddMetricView: View {
         let metric = ProgressMetric(
             singleLegHoldTime: Int(balanceHold),
             continuousPracticeTime: Int(continuousPractice),
-            movesLearned: Int(movesLearned),
             restingHeartRate: Int(restingHR),
             bodyWeight: Double(bodyWeight),
-            sleepQuality: Int(sleepQuality)
+            sleepQuality: Int(sleepQuality),
+            movesLearned: Int(movesLearned)
         )
 
         progressTracker.addProgressMetric(metric)
