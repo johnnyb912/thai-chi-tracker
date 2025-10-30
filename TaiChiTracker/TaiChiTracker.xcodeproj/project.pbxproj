@@ -10,9 +10,22 @@
 		A5C7AB2E2EB11F4D00851367 /* TaiChiTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiChiTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A5C7AB652EB3AC3D00851367 /* Exceptions for "TaiChiTracker" folder in "TaiChiTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A5C7AB2D2EB11F4D00851367 /* TaiChiTracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A5C7AB302EB11F4D00851367 /* TaiChiTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A5C7AB652EB3AC3D00851367 /* Exceptions for "TaiChiTracker" folder in "TaiChiTracker" target */,
+			);
 			path = TaiChiTracker;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,7 @@
 				DEVELOPMENT_TEAM = 2FC9JZ46NP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaiChiTracker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Thai Chi Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -291,6 +305,7 @@
 				DEVELOPMENT_TEAM = 2FC9JZ46NP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaiChiTracker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Thai Chi Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
