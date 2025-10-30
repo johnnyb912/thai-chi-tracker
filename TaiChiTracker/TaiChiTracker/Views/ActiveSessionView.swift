@@ -189,8 +189,8 @@ struct ActiveSessionView: View {
         .onDisappear {
             sessionTimer.stop()
         }
-        .onChange(of: sessionTimer.phase) { newPhase in
-            if case .completed = newPhase {
+        .onChange(of: sessionTimer.phase) {
+            if case .completed = sessionTimer.phase {
                 showingCompleteSheet = true
             }
         }
