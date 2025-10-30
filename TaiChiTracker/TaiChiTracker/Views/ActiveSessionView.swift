@@ -8,7 +8,7 @@
 import SwiftUI
 import AVFoundation
 
-enum SessionPhase {
+enum SessionPhase: Equatable {
     case warmup
     case exercise(index: Int, set: Int)
     case rest
