@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct ProgressView: View {
+struct ProgressTrackingView: View {
     @EnvironmentObject var progressTracker: ProgressTracker
     @State private var showingAddMetric = false
     @State private var selectedMetricType: MetricType = .balance
@@ -506,6 +506,6 @@ struct AddMetricView: View {
 }
 
 #Preview {
-    ProgressView()
+    ProgressTrackingView()
         .environmentObject(ProgressTracker())
 }

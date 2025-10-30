@@ -23,7 +23,7 @@ struct ContentView: View {
                     Label("Schedule", systemImage: "calendar")
                 }
 
-            ProgressView()
+            ProgressTrackingView()
                 .tabItem {
                     Label("Progress", systemImage: "chart.line.uptrend.xyaxis")
                 }
